@@ -1,0 +1,80 @@
+{
+  "name": "Health",
+  "totalSpendingFormatted": "$28.5B",
+  "percentage": 31.95,
+  "percentageFormatted": "32.0%",
+  "categories": [
+    {
+      "name": "Acute Care",
+      "amount": 12.5
+    },
+    {
+      "name": "Mental Health",
+      "amount": 3.2
+    },
+    {
+      "name": "Long-term Care",
+      "amount": 2.8
+    },
+    {
+      "name": "Primary Care",
+      "amount": 4.1
+    },
+    {
+      "name": "Public Health",
+      "amount": 2.3
+    },
+    {
+      "name": "Home and Community Care",
+      "amount": 1.8
+    },
+    {
+      "name": "Pharmaceutical Services",
+      "amount": 1.8
+    }
+  ],
+  "spending_data": {
+    "name": "Health",
+    "children": [
+      {
+        "name": "Hospital and Medical Services",
+        "children": [
+          {
+            "name": "Acute Care",
+            "amount": 12.5
+          },
+          {
+            "name": "Mental Health",
+            "amount": 3.2
+          },
+          {
+            "name": "Long-term Care",
+            "amount": 2.8
+          }
+        ]
+      },
+      {
+        "name": "Community Health Services",
+        "children": [
+          {
+            "name": "Primary Care",
+            "amount": 4.1
+          },
+          {
+            "name": "Public Health",
+            "amount": 2.3
+          },
+          {
+            "name": "Home and Community Care",
+            "amount": 1.8
+          }
+        ]
+      },
+      {
+        "name": "Pharmaceutical Services",
+        "amount": 1.8
+      }
+    ]
+  },
+  "generatedAt": "2024-01-01T00:00:00.000Z"
+}
