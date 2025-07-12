@@ -96,7 +96,7 @@ Based on the Ontario implementation, BC will need the following data files:
 ### Phase 1: Data Collection & Processing
 
 #### Step 1: Research BC Public Accounts
-- [ ] Identify BC's public accounts source (likely https://www2.gov.bc.ca/gov/content/governments/reports/estimates)
+- [ ] Identify BC's public accounts source (likely https://www2.gov.bc.ca/gov/content/governments/finances/public-accounts)
 - [ ] Download latest BC public accounts PDFs (typically 2023-24 or 2024-25)
 - [ ] Analyze BC's ministry structure and spending categories
 - [ ] Map BC ministries to the application's data model
