@@ -1,0 +1,38 @@
+{
+  "name": "Transportation and Infrastructure",
+  "totalSpendingFormatted": "$8.9B",
+  "percentage": 9.98,
+  "percentageFormatted": "10.0%",
+  "categories": [
+    {
+      "name": "Highway Operations",
+      "amount": 3.2
+    },
+    {
+      "name": "Transit",
+      "amount": 2.8
+    },
+    {
+      "name": "Infrastructure Projects",
+      "amount": 2.9
+    }
+  ],
+  "spending_data": {
+    "name": "Transportation and Infrastructure",
+    "children": [
+      {
+        "name": "Highway Operations",
+        "amount": 3.2
+      },
+      {
+        "name": "Transit",
+        "amount": 2.8
+      },
+      {
+        "name": "Infrastructure Projects",
+        "amount": 2.9
+      }
+    ]
+  },
+  "generatedAt": "2024-01-01T00:00:00.000Z"
+}

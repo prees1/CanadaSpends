@@ -43,7 +43,8 @@ export const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const pathname = usePathname();
   const spendingActive =
     pathname.startsWith(`/${i18n.locale}/spending`) ||
-    pathname.startsWith("/ontario");
+    pathname.startsWith("/ontario") ||
+    pathname.startsWith("/british-columbia");
 
   return (
     <>
@@ -96,6 +97,12 @@ export const MainLayout = ({ children }: { children: React.ReactNode }) => {
                       className="px-3 py-2 text-sm hover:bg-gray-100 rounded"
                     >
                       <Trans>Ontario</Trans>
+                    </Link>
+                    <Link
+                      href="/british-columbia"
+                      className="px-3 py-2 text-sm hover:bg-gray-100 rounded"
+                    >
+                      <Trans>British Columbia</Trans>
                     </Link>
                   </DropdownMenu.Content>
                 </DropdownMenu.Portal>
@@ -161,6 +168,14 @@ export const MainLayout = ({ children }: { children: React.ReactNode }) => {
             >
               <span className="pl-4 inline-block">
                 <Trans>Ontario</Trans>
+              </span>
+            </MobileNavLink>
+            <MobileNavLink
+              href="/british-columbia"
+              active={pathname.startsWith("/british-columbia")}
+            >
+              <span className="pl-4 inline-block">
+                <Trans>British Columbia</Trans>
               </span>
             </MobileNavLink>
             <MobileNavLink

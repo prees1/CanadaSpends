@@ -1,0 +1,98 @@
+{
+  "name": "British Columbia",
+  "financialYear": "2024",
+  "source": "https://www2.gov.bc.ca/gov/content/governments/reports/estimates",
+  "totalProvincialSpending": 89.2,
+  "totalProvincialSpendingFormatted": "$89.2B",
+  "totalEmployees": 35000,
+  "ministries": [
+    {
+      "name": "Health",
+      "slug": "health",
+      "totalSpending": 28.5,
+      "totalSpendingFormatted": "$28.5B",
+      "percentage": 31.95,
+      "percentageFormatted": "32.0%"
+    },
+    {
+      "name": "Education and Child Care",
+      "slug": "education-and-child-care",
+      "totalSpending": 18.2,
+      "totalSpendingFormatted": "$18.2B",
+      "percentage": 20.40,
+      "percentageFormatted": "20.4%"
+    },
+    {
+      "name": "Social Development and Poverty Reduction",
+      "slug": "social-development-and-poverty-reduction",
+      "totalSpending": 12.8,
+      "totalSpendingFormatted": "$12.8B",
+      "percentage": 14.35,
+      "percentageFormatted": "14.4%"
+    },
+    {
+      "name": "Transportation and Infrastructure",
+      "slug": "transportation-and-infrastructure",
+      "totalSpending": 8.9,
+      "totalSpendingFormatted": "$8.9B",
+      "percentage": 9.98,
+      "percentageFormatted": "10.0%"
+    },
+    {
+      "name": "Finance",
+      "slug": "finance",
+      "totalSpending": 6.7,
+      "totalSpendingFormatted": "$6.7B",
+      "percentage": 7.51,
+      "percentageFormatted": "7.5%"
+    },
+    {
+      "name": "Public Safety and Solicitor General",
+      "slug": "public-safety-and-solicitor-general",
+      "totalSpending": 4.2,
+      "totalSpendingFormatted": "$4.2B",
+      "percentage": 4.71,
+      "percentageFormatted": "4.7%"
+    },
+    {
+      "name": "Environment and Climate Change Strategy",
+      "slug": "environment-and-climate-change-strategy",
+      "totalSpending": 3.1,
+      "totalSpendingFormatted": "$3.1B",
+      "percentage": 3.48,
+      "percentageFormatted": "3.5%"
+    },
+    {
+      "name": "Jobs, Economic Development and Innovation",
+      "slug": "jobs-economic-development-and-innovation",
+      "totalSpending": 2.8,
+      "totalSpendingFormatted": "$2.8B",
+      "percentage": 3.14,
+      "percentageFormatted": "3.1%"
+    },
+    {
+      "name": "Forests",
+      "slug": "forests",
+      "totalSpending": 1.9,
+      "totalSpendingFormatted": "$1.9B",
+      "percentage": 2.13,
+      "percentageFormatted": "2.1%"
+    },
+    {
+      "name": "Agriculture and Food",
+      "slug": "agriculture-and-food",
+      "totalSpending": 1.2,
+      "totalSpendingFormatted": "$1.2B",
+      "percentage": 1.35,
+      "percentageFormatted": "1.4%"
+    },
+    {
+      "name": "Energy, Mines and Low Carbon Innovation",
+      "slug": "energy-mines-and-low-carbon-innovation",
+      "totalSpending": 0.9,
+      "totalSpendingFormatted": "$0.9B",
+      "percentage": 1.01,
+      "percentageFormatted": "1.0%"
+    }
+  ]
+}

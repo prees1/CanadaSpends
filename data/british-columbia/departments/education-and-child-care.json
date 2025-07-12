@@ -1,0 +1,64 @@
+{
+  "name": "Education and Child Care",
+  "totalSpendingFormatted": "$18.2B",
+  "percentage": 20.40,
+  "percentageFormatted": "20.4%",
+  "categories": [
+    {
+      "name": "School Operations",
+      "amount": 8.9
+    },
+    {
+      "name": "Special Education",
+      "amount": 1.2
+    },
+    {
+      "name": "Universities",
+      "amount": 3.8
+    },
+    {
+      "name": "Colleges",
+      "amount": 2.1
+    },
+    {
+      "name": "Child Care",
+      "amount": 2.2
+    }
+  ],
+  "spending_data": {
+    "name": "Education and Child Care",
+    "children": [
+      {
+        "name": "K-12 Education",
+        "children": [
+          {
+            "name": "School Operations",
+            "amount": 8.9
+          },
+          {
+            "name": "Special Education",
+            "amount": 1.2
+          }
+        ]
+      },
+      {
+        "name": "Post-Secondary Education",
+        "children": [
+          {
+            "name": "Universities",
+            "amount": 3.8
+          },
+          {
+            "name": "Colleges",
+            "amount": 2.1
+          }
+        ]
+      },
+      {
+        "name": "Child Care",
+        "amount": 2.2
+      }
+    ]
+  },
+  "generatedAt": "2024-01-01T00:00:00.000Z"
+}

@@ -1656,6 +1656,11 @@ msgstr "Soutien du revenu dans les réserves du Yukon"
 msgid "Ontario"
 msgstr ""
 
+#: src/components/MainLayout/index.tsx:104
+#: src/components/MainLayout/index.tsx:177
+msgid "British Columbia"
+msgstr "Colombie-Britannique"
+
 #: src/components/Sankey/index.tsx:503
 msgid "Ontario EQP"
 msgstr "PÉ Ontario"
