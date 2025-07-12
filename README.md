@@ -86,3 +86,55 @@ npx simple-git-hooks
 ```
 
 If linting fails, the commit will be blocked until issues are resolved.
+
+
+## Data Processing
+
+### Overview
+
+Offical Data Sources ───────────────────► Source Data ──────────────► Extracted Data ───────────────► Transformed Data ────────────► Formatted Data
+     (URLs)               Fetch               │        [Optional]           ▲            Transform                        Format
+                                              │          Extract            │
+                                              │                             │
+                                              └─────────────────────────────┘
+#### Official Data Sources
+- The list of URLs that are determined the have all the needed information for each jurisdiction.
+- It may be one or more URLs.
+- Ideally the URLs point to the actual files that contain the data, not summary or overview web pages about the data.
+
+#### Fetch
+- Given a jurisdiction, will fetch and store the needed Source Data within the repository.
+- The Source Data may be in CSV, PDF, Excel formats. Ideally text based formats are available and used when possible.
+
+#### Extract
+- If the Source Data is in a PDF or other non-parsable format this step is required.
+- This step extracts the needed information form the PDF into parsable text format as Extracted Data.
+
+#### Transform
+- Takes the Extracted Data and manipulates it to meet the data contents requirements and needs.
+- For example, if certain values need to be combined, or labels need to be altered.
+- The output structure of this data remains in the same format as its input, ie. CSV.
+
+#### Format
+- Takes the Transformed Data and structures it in the required structure needed for rendering.
+- The output is the specific JSON structure required for the sankey visualization.
+
+### Executing
+
+```
+./scripts/run.sh [jurisdiction]
+```
+
+This will run all steps needed to update the data.
+
+Each step can also be run individually, to iterate and validate each step as needed.
+
+```
+./scripts/fetch.sh [jurisdiction]
+./scripts/extract.sh [jurisdiction]
+./scripts/transform.sh [jurisdiction]
+./scripts/format.sh [jurisdiction]
+```
+
+All the commands provide usage text if run with no arguments.
+
